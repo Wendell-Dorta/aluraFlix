@@ -7,18 +7,24 @@ body {
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px  rgb(98, 10, 156);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgb(98, 10, 156);
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(32, 32, 32);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+}
+
+.fundo-fixo {
+    background: url('images/the-batman-banner.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .chamada-texto {
@@ -52,9 +58,17 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid  rgb(98, 10, 156);
 }
 
 .categoria h2 {
-    color: rgb(42, 122, 228);
+    color:  rgb(98, 10, 156);
+}
+
+.borda {
+    border: 3px solid  rgb(79, 78, 80);
+}
+
+.borda:hover {
+    border: 3px solid  rgb(173, 0, 0);
 }
