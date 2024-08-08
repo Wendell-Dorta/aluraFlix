@@ -7,13 +7,21 @@ body {
 }
 
 .text-banner-title {
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: rgb(78, 78, 78);
     -webkit-text-stroke-width: 1.6px ;
 }
 
 .text-banner {
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: rgb(78, 78, 78);
     -webkit-text-stroke-width: 0.6px 
+}
+
+.text-banner-title:hover {
+    -webkit-text-stroke-color: rgb(173, 0, 0);;
+}
+
+.text-banner:hover {
+    -webkit-text-stroke-color: rgb(173, 0, 0);;
 }
 
 header {
