@@ -1,9 +1,17 @@
 body {
-    color: white;
+    color: black;
     background: black;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
+}
+
+.text-banner-title {
+    -webkit-text-stroke: 1.6px white;
+}
+
+.text-banner {
+    -webkit-text-stroke: 0.6px white;
 }
 
 header {
